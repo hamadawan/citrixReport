@@ -19,10 +19,10 @@ export default function Chart (props){
         <YAxis unit={'K'}/>
         <Tooltip />
         <Legend />
-        <Bar dataKey="category1" stackId="a" fill="#C9CBCF" />
-        <Bar dataKey="category2" stackId="a" fill="#36A2EB" />
-        <Bar dataKey="category3" stackId="a" fill="#FF6384" />
-        <Bar dataKey="category4" stackId="a" fill="#4BC0C0" />
+        <Bar dataKey="category1" stackId="a" fill="#9494FF" />
+        <Bar dataKey="category2" stackId="a" fill="#000080" />
+        <Bar dataKey="category3" stackId="a" fill="#3939FF" />
+        <Bar dataKey="category4" stackId="a" fill="#0E86D4" />
       </BarChart>
     );  
 }
