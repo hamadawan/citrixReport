@@ -26,9 +26,9 @@ function App() {
 
   return (
     <>
-      <h1 style={{padding:'20px', fontFamily:'robot', color:'#FFFFFF'}}>WelCome To Citrix</h1>
-      <div className='chart'>
-        <h3 style={{padding:'20px', fontFamily:'robot', color:'#FF6384'}}>Citrix Report</h3>
+      <h1 className='heading' >WelCome To Citrix</h1>
+      <div className='chart' >
+        <h3 className='chartHeading' >Citrix Report</h3>
         <Chart data = {changeTimeFormat(Data.defaultReport.items)}/>
       </div>
       <div className="table">
